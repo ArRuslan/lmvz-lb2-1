@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lmvz-lb2-1"
+version = "0.1.0"
+description = ""
+authors = ["RuslanUC <dev_ruslan_uc@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "lmvz_lb2_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+simple-term-menu = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
